@@ -1,4 +1,4 @@
-# 4.Execution_of_NetworkCommands
+# Ex. 4a Execution_of_NetworkCommands
 ## REGISTER NUMBER : 212223240177
 ## AIM :Use of Network commands in Real Time environment
 ## Software : 
@@ -55,16 +55,9 @@ ip=input("Enter the website you want to ping ")
 s.send(ip.encode()) 
 print(s.recv(1024).decode())
 ```
-### TRACEROUTE COMMAND:
-```
- from scapy.all import*     
-target = ["www.google.com"]     
-result, unans = traceroute(target,maxttl=32) 
-print(result,unans)
-```
+
 ## Output
 ![1](https://github.com/user-attachments/assets/cf58fc8b-54f6-44fb-918c-8afe07c2e5a6)
-![2](https://github.com/user-attachments/assets/61630e93-fce4-4e33-b4bb-cb7c3ca55c99)
 
 ## Result
 Thus Execution of Network commands Performed 
